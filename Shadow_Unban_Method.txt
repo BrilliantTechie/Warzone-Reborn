@@ -1,0 +1,26 @@
+Shadow Ban Method by Zuqaa
+
+Step 1: windows button+ r, regedit : DELETE this key: HKEY_CURRENT_USER\Software\Blizzard Entertainment\Battle.net\Identity
+NOTE: if it does not exists, just skip this
+
+Step 2: Enter regedit into windows search: CHANGE the following registry key to a similar, but not the same(!) number
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows NT\CurrentVersion\InstallTime 
+
+Change hwid in HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\IDConfigDB\Hardware Profiles\0001
+
+Step 3: Do a fresh pc restart
+
+Step 4: Delete these folders
+win button +r, Enter %localappdata% : DELETE FOLDER: Battle.net
+DELETE FOLDER: CrashDumps
+
+win button +r, Enter %appdata% into windows search: DELETE FOLDER: Battle.net
+
+win button +r, Enter %documents% into windows search: DELETE FOLDER: Call of Duty Modern Warfare (save your config if needed)
+
+win button +r, Enter %programdata% into windows search: DELETE FOLDER: Battle.net DELETE FOLDER: Blizzard Entertainment
+
+Step 5. change hwid with hwid.sys, change mac with TMAC restart computer then change your computer name and disk serial with volumeid64 and then restart your pc again
+
+Step 6. reinstall battle net and create a new fresh acc.
